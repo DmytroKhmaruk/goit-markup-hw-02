@@ -59,7 +59,7 @@ footer .link {
 
 .link:hover,
 .link:focus {
-    color: var(--accent-color);
+    background-color: var(--accent-color);
 } 
 
 a {
@@ -144,10 +144,28 @@ h1 {
     background-color: #F5F4FA;
 }
 
+/*друга сторінка*/
+.filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
 
+.filter:hover,
+.filter:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
 
+.project h2 {
+    color: var(--primary-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 
+.project p {
+    font-size: 16px;
+    line-height: 1.88px;
+}
 
-
-
-/*  */
