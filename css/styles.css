@@ -1,0 +1,153 @@
+:root {
+    --primary-text-color: #212121;
+    --tittle-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --primary-black-color: #2F303A;
+}
+/* основні стилі всіх сторінок */
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color); 
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.logo {
+    color: #000000;
+    font-family: Raleway, sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+footer>.logo {
+    color: #ffffff;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.nav {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav:hover,
+.nav:focus {
+    color: var(--accent-color);
+}
+
+header .link {
+    color: var(--tittle-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+
+footer .link {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+} 
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    color: var(--tittle-text-color);
+}
+
+footer {
+    background-color: var(--primary-black-color);
+}
+
+address {
+    color: #ffffff;
+    font-style: normal;
+}
+
+
+/*перша сторінка (унікальний контент)*/
+/*hero*/
+.hero {
+    background-color: var(--primary-black-color);
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+}
+
+.benefits h3 {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+/* section (чим ми займаємося) */
+.section>h2 {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team>h2 {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team p {
+    font-size: 16px;
+    line-height: 1.19;
+}
+.team {
+    background-color: #F5F4FA;
+}
+
+
+
+
+
+
+
+/*  */
