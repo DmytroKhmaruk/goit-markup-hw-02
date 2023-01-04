@@ -109,8 +109,7 @@ h1 {
     line-height: 1.88;
     letter-spacing: 0.06em;
 
-    cursor: pointer
-
+    cursor: pointer;
 }
 
 .benefits h3 {
@@ -152,7 +151,7 @@ h1 {
     font-size: 16px;
     line-height: 1.62;
     
-    cursor: pointer
+    cursor: pointer;
 }
 
 .filter:hover,
