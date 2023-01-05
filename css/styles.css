@@ -44,6 +44,10 @@ footer>.logo {
     color: var(--accent-color);
 }
 
+.active {
+    color: var(--accent-color);
+}
+
 header .link {
     color: var(--tittle-text-color);
     font-weight: 500;
@@ -59,7 +63,7 @@ footer .link {
 
 .link:hover,
 .link:focus {
-    background-color: var(--accent-color);
+    color: var(--accent-color);
 } 
 
 a {
